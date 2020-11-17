@@ -1,0 +1,32 @@
+{
+  "walnut" : {
+    "string1" : 0,
+    "string10" : 0,
+    "string11" : 0,
+    "string12" : 0,
+    "string13" : 0,
+    "string2" : 0,
+    "string3" : 0,
+    "string4" : 0,
+    "string5" : 0,
+    "string6" : 0,
+    "string7" : 0,
+    "string8" : 0,
+    "string9" : 0
+  },
+  "cherry" : {
+    "string1" : 0,
+    "string10" : 0,
+    "string11" : 0,
+    "string12" : 0,
+    "string13" : 0,
+    "string2" : 0,
+    "string3" : 0,
+    "string4" : 0,
+    "string5" : 0,
+    "string6" : 0,
+    "string7" : 0,
+    "string8" : 0,
+    "string9" : 0
+  }
+}
