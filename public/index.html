@@ -9,20 +9,22 @@
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="/__/firebase/8.0.2/firebase-app.js"></script>
+    <script src="/__/firebase/8.0.2/firebase-app.js" defer></script>
 
     <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="/__/firebase/8.0.2/firebase-analytics.js"></script>
+    <script src="/__/firebase/8.0.2/firebase-analytics.js" defer></script>
 
     <!-- Add Firebase products that you want to use -->
-    <script src="/__/firebase/8.0.2/firebase-auth.js"></script>
-    <script src="/__/firebase/8.0.2/firebase-firestore.js"></script>
+    <script src="/__/firebase/8.0.2/firebase-auth.js"defer></script>
+    <script src="/__/firebase/8.0.2/firebase-database.js" defer></script>
+    <script src="/__/firebase/init.js" defer></script>
+
     <script src="https://cdn.jsdelivr.net/npm/webmidi@2.5.1"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.68/Tone.js" integrity="sha512-eBjUIAF/NN5kcGlFXz5n9UMAv+LKYFqtGnqHu83qQCXRJaL6iSsjFeOdft9AK9lD/9meTkj/5ctn6DGV5rz6Pg==" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/css/main.css">
-    <script src="js/longDistance.js"></script>
+    <script src="js/longDistance.js" defer></script>
 
   </head>
   <body>
@@ -30,9 +32,9 @@
       Hello, welcome to the long distance zither
     </div>
 
-    <div id="whichZither">
-      <select class="" name="Which Zither">
-        <option value="cedar">Cedar</option>
+    <div>
+      <select class="" name="Which Zither" id="whichZither">
+        <option value="cherry">Cherry</option>
         <option value="walnut">Walnut</option>
       </select>
     </div>
